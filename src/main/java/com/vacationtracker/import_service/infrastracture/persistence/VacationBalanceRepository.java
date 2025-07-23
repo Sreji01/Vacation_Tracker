@@ -1,4 +1,4 @@
-package com.vacationtracker.import_service.domain.repository;
+package com.vacationtracker.import_service.infrastracture.persistence;
 
 import com.vacationtracker.import_service.domain.model.VacationBalance;
 import org.springframework.data.jpa.repository.JpaRepository;
