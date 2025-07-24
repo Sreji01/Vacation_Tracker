@@ -19,4 +19,13 @@ public class VacationBalance {
     @ManyToOne
     @JoinColumn(name = "employee_id")
     private Employee employee;
+
+    public VacationBalance() {
+    }
+
+    public VacationBalance(int year, int numberOfDays, Employee employee) {
+        this.year = year;
+        this.numberOfDays = numberOfDays;
+        this.employee = employee;
+    }
 }

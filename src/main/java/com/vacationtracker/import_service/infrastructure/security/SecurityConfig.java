@@ -1,4 +1,4 @@
-package com.vacationtracker.import_service.infrastracture.security;
+package com.vacationtracker.import_service.infrastructure.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

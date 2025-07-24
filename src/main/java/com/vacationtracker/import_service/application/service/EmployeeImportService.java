@@ -1,7 +1,7 @@
 package com.vacationtracker.import_service.application.service;
 
 import com.vacationtracker.import_service.domain.model.Employee;
-import com.vacationtracker.import_service.infrastracture.persistence.EmployeeRepository;
+import com.vacationtracker.import_service.infrastructure.persistence.EmployeeRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
